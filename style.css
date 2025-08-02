@@ -322,3 +322,106 @@ footer{
     transform: scale(1.3);
 }
 /* footer end */
+
+/* Responsive for mobile */
+@media screen and (max-width:600px){
+    
+    header{
+        margin:16px;
+        width: 100%;
+    }
+    .logo{
+        width: 63px;
+        height: 38px;
+    }
+    .h ,.s,.a{
+        display: none;
+    }
+    
+    .bannar{
+        margin: 28px 0;
+        flex-direction: column-reverse;
+    }
+    .side-img{
+        width: 90%;
+        margin: 0 2px;
+    }
+    .des{
+        margin: 0 16px;
+
+    }
+    main{
+        margin:2px 2px;
+    }
+    
+    .card-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .f-lover{
+        flex-direction: column;
+        margin:41px 15px 0 15px;
+        gap:18px;
+    }
+    
+    .latest p, .our-plants p{
+        margin:28px;
+    }
+    .first-layout{
+        flex-direction: column;
+        margin-top: 51px;
+    }
+    .bloom img , .ana img , .zabo img{
+        width: 500px;
+        height: 252px;
+        margin: 0 16px 20px 16px;
+        border-radius: 15px;
+    }
+    .p-des h2{
+        font-size: 20px;
+    }
+    .zabo .p-des h2{
+    font-size: 20px;
+
+}
+.p-des p a{
+    padding: 26px 50px;
+    font-size: 16px;
+    text-align: center;
+}
+.join-bg{
+    margin-top: 44px;
+    background-image: url('assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.join{
+    padding:110px 36px 63px 36px;
+}
+.join h2{
+    font-size: 20px;
+}
+form{
+   width: 100%;
+   height: 50px;
+   
+}
+form input[type="email"]{
+    width: 218px;
+}
+form input[type="submit"]{
+    padding:17px 12px
+}
+
+footer{
+    flex-direction: column;
+    margin:50px 20px;
+}
+.link-list ul{
+    grid-template-columns: repeat(1,1fr);
+    margin: 20px 0;
+}
+.link-list{
+    margin-bottom: 20px;
+}
+}
+/* end */
