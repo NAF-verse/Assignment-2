@@ -1,0 +1,93 @@
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.noto {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+}
+*{
+    margin:0px;
+    padding: 0;
+}
+
+
+/* header start */
+header{
+    margin: 30px 150px 0 150px;
+}
+
+/* navber start */
+nav{
+    display:flex;
+    justify-content: space-between;
+   
+}
+.logo{
+    width: 135px;
+    height: 82px;
+}
+.nav-item{
+    font-size: 16px;
+    align-items: center;
+}
+
+.nav-item ul {
+    list-style: none;
+    display: flex;
+    gap:48px;
+    
+}
+.nav-item ul li{
+    padding: 18px 0;
+    font-size: 16px;
+}
+.nav-item ul li:hover{
+    font-weight: bold;
+}
+.nav-item ul li a{
+    text-decoration: none;
+}
+.home{
+    color:black;
+    font-weight: bold;
+}
+.shops,.ab{
+    color: rgba(107, 114, 128, 1);
+}
+.cart{
+    color:black;
+}
+/* navber end */
+
+/*bannar start  */
+.bannar{
+    margin: 120px auto;
+    display: flex;
+    
+}
+.des{
+    margin-top: 50px;
+    gap:16px;
+}
+.des h1{
+    font-size: 45px;
+    font-weight: bold;
+
+}
+.des p{
+    font-size: 18px;
+    font-weight: normal;
+    color:rgba(0, 0, 0, 0.5)
+}
+
+.side-img{
+    margin-top: -10px;
+}
+.fresh-flower{
+    color:#E95A08;
+}
+/* header end */
